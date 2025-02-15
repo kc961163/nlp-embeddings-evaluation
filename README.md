@@ -288,7 +288,7 @@ To further challenge the models, we designed two sets of custom analogy question
 4. **Antonym Test:**  
      For a list of test words (e.g., “increase”, “enter”, “happy”, “hot”, “light”, “big”, “fast”), the top 10 similar words are retrieved for each model.
 
-5. **Custom Analogy Tests (Optional Bonus):**  
+5. **Custom Analogy Tests:**  
      Two sets of custom analogy questions were designed:
      
      - **Category A (Domain-Specific):**
@@ -374,5 +374,4 @@ Our evaluation of pretrained word embeddings using analogy and antonym tests rev
 - Analogy performance varies by model, with Word2Vec (Google News) generally outperforming GloVe (Wiki Gigaword) on the given tasks.
 - Antonym similarity is a known issue, as embeddings tend to capture contextual similarity without differentiating between synonyms and antonyms.
 - Custom tests further expose the models’ limitations in handling domain-specific and adversarial analogies.
-- Visualizations (using TSNE) complement these quantitative results by revealing the structure of the embedding space and the clustering of semantically similar words.
 
